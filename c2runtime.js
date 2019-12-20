@@ -4855,7 +4855,7 @@ quat4.str=function(a){return"["+a[0]+", "+a[1]+", "+a[2]+", "+a[3]+"]"};
 			drawW = w;
 			drawH = Math.max(h * 0.005, 2);
 			renderToCtx.fillRect(0, h * 0.85 - drawH/2, drawW, drawH);
-			renderToCtx.fillStyle = anyImageHadError ? "red" : "#E0FF65";
+			renderToCtx.fillStyle = anyImageHadError ? "red" : "#0000AA";
 			drawW = w * this.progress;
 			renderToCtx.fillRect(w * 0.5 - drawW/2, h * 0.85 - drawH/2, drawW, drawH);
 		}
